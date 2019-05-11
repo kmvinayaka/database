@@ -7,7 +7,7 @@ api_call = 'https://api.openweathermap.org/data/2.5/forecast?appid=' + api_key
 
 running = True
 
-print('Welcome to Jaimes Subroto\'s 5 day weather forecast application using OpenWeatherMap\'s API!')
+print('Welcome to weather report \'s 5 day weather forecast application using OpenWeatherMap\'s API!')
 
 # Program loop
 while running:
