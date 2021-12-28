@@ -28,7 +28,7 @@ try:
         payload["cpu_max"] = cpu_details.max
         payload["cpu_min"] = cpu_details.min
         print(payload)
-        (rc,mid)=client.publish("python/sensordata/ravi", json.dumps(payload))
+        (rc,mid)=client.publish("python/sensordata/IoT", json.dumps(payload))
         next_reading += INTERVAL
         sleep_time = next_reading-time.time()
         if sleep_time > 0:
