@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 from store_Sensor_Data_to_DB import openweather_Data_Handler
 w={"Cityname":"","Data_and_Time":"","Temperature":"","Humidity":"","Pressure":""}
-api_key = "05c7f8b28705511925335e9de0c1ab9a"
+api_key = "******************************************************"
 
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = 'mysore'
